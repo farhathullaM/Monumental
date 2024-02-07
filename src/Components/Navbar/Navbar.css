@@ -4,9 +4,9 @@
     justify-content: space-between;
     align-items: center;
     padding: 1rem;
-    color: yellow;
-    background: black;
-    height: 50px;
+    color: #f3e0dc;
+    background: #b54925e0;
+    height: 4%;
 }
 .nav-logo{
     display: flex;
@@ -20,7 +20,7 @@
     margin-right: 10px;
 }
 .nav-logo p{
-    color: yellow;
+    color: #f3e0dc;
     font-size: 17px;
     font-weight: 500;
 }

@@ -8,28 +8,17 @@
     height: 40;
     bottom: 0;
     width: 100%;
-    
+    background: lightgrey; 
 
-}
-
-.footer-logo{
-    display: flex;
-    align-items: center;
-    gap: 20px;
-}
-
-.footer-logo p{
-    color: gray;
-    font-size: 42px;
-    font-weight: 700;
 }
 
 .footer-links{
     display: flex;
     gap: 20px;
     list-style: none;
-    color: gray;
+    color: black;
     font-size: 20px;
+    margin-top: 10px;
 }
 
 .footer-links li{
@@ -45,7 +34,6 @@
 .footer-icons-container{
     padding: 10px;
     padding-bottom: 6px;
-    background: #fbfbfb;
     height: 50px;
     width: 50px;
 }
@@ -62,14 +50,16 @@
 }
 
 .footer-copyright hr{
-    width: 80px;
+    width: 80%;
     border: none;
     border-radius: 10px;
     height: 3px;
-    background: #c7c7c7;
+    background: #535151;
     margin-bottom: 0;
 }
 
 .footer-copyright p{
-    margin: 5px 5px;
+    font-size: 20px;
+    color: grey;
+    margin: 10px 10px;
 }

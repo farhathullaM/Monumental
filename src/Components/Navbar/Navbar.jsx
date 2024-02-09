@@ -11,7 +11,7 @@ function toggleNav(){
     const closeButton = document.querySelector(".menu-icons .fa-times")
     const menuButton = document.querySelector(".menu-icons .fa-bars")
     if(isNavOpen){
-
+        
         navMenu.classList.remove("nav-open")
         isNavOpen = false
         closeButton.style.display = "none"
@@ -35,15 +35,15 @@ return (
         </div>
 
         <div className="menu-icons" onClick={toggleNav}>
-            <i className='fas fa-bars'></i>
-            <i className='fas fa-times'></i>
+            <i className='fa-solid fa-bars fa-lg' style={{color: 'black'}}></i>
+            <i className='fa-solid fa-times fa-lg' style={{color: 'black'}}></i>
         </div>
 
         <ul className='nav-menu'>
-            <li> <Link to='./' className='navlink'> <i className="fa-solid fa-house-chimney"></i> Home </Link> </li>
+            <li> <Link to='/' className='navlink'> <i className="fa-solid fa-house-chimney"></i> Home </Link> </li>
             <li> <Link to='/login' className='navlink'> <i className="fa-solid fa-right-to-bracket"></i> Login </Link> </li>
-            <li> <Link to='./' className='navlink'> <i className="fa-solid fa-address-card"></i> About us </Link> </li>
-            <li> <Link to='./' className='navlink'> <i class="fa-solid fa-blog"></i> Blogs </Link> </li>
+            <li> <Link to='/' className='navlink'> <i className="fa-solid fa-address-card"></i> About us </Link> </li>
+            <li> <Link to='/' className='navlink'> <i class="fa-solid fa-blog"></i> Blogs </Link> </li>
         </ul>
 
     </nav>

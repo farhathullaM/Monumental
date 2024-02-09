@@ -9,7 +9,7 @@ return (
         <div className="home-txt">
             <h1>Let the World See</h1>
             <p>Discover the wonders of everywhere</p>
-            <a href="/">Locality</a>
+            <a className='show' href="/">Locality</a>
         </div>
     </div>
 )

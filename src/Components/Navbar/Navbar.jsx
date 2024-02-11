@@ -42,7 +42,7 @@ return (
         <ul className='nav-menu'>
             <li> <Link to='/' className='navlink'> <i className="fa-solid fa-house-chimney"></i> Home </Link> </li>
             <li> <Link to='/login' className='navlink'> <i className="fa-solid fa-right-to-bracket"></i> Login </Link> </li>
-            <li> <Link to='/' className='navlink'> <i className="fa-solid fa-address-card"></i> About us </Link> </li>
+            <li> <Link to='/about' className='navlink'> <i className="fa-solid fa-address-card"></i> About us </Link> </li>
             <li> <Link to='/' className='navlink'> <i class="fa-solid fa-blog"></i> Blogs </Link> </li>
         </ul>
 

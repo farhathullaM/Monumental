@@ -1,9 +1,11 @@
 import React from 'react';
 import './Home.css';
 import coverimg from '../Assets/img1.jpg';
+import Popular from '../Popular/Popular';
 
 const Home = () => {
 return (
+<>
     <div className='home'>
         <img src={coverimg} alt="" />
         <div className="home-txt">
@@ -12,6 +14,8 @@ return (
             <a className='show' href="/">Locality</a>
         </div>
     </div>
+    <Popular/>
+</>
 )
 }
 

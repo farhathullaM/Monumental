@@ -13,16 +13,16 @@ img{
     left: 50%;
     transform: translate(-50%, -50%);
     width: 100%;
+    
 }
 .home-txt h1{
-    font-size: 3rem;
-    font-weight: 800;
-    color: #fff;
-    -webkit-background-clip: text;
+    font-size: 4rem;
+    font-weight: 900;
+    color: #000000;
 }
 .home-txt p{
     font-size: 1.3rem;
-    color: #fff;
+    color: #000000;
     padding: 0.5rem 0 2rem 0;
 }
 .home-txt .show{

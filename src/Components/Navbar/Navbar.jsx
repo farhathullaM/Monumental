@@ -31,7 +31,7 @@ return (
         
         <div className="nav-logo">
             <img src={logo_new} alt="" />
-            <h1>History</h1>
+            <h1>MONUMENTS</h1>
         </div>
 
         <div className="menu-icons" onClick={toggleNav}>
@@ -40,10 +40,11 @@ return (
         </div>
 
         <ul className='nav-menu'>
-            <li> <Link to='/' className='navlink'> <i className="fa-solid fa-house-chimney"></i> Home </Link> </li>
-            <li> <Link to='/login' className='navlink'> <i className="fa-solid fa-right-to-bracket"></i> Login </Link> </li>
-            <li> <Link to='/about' className='navlink'> <i className="fa-solid fa-address-card"></i> About us </Link> </li>
-            <li> <Link to='/' className='navlink'> <i class="fa-solid fa-blog"></i> Blogs </Link> </li>
+            <li> <Link to='/' className='navlink'> HOME </Link> </li>
+            
+            <li> <Link to='/about' className='navlink'>  ABOUT US </Link> </li>
+            <li> <Link to='/' className='navlink'>  BLOGS </Link> </li>
+            <li> <Link to='/login' className='navlink'> LOGIN </Link> </li>
         </ul>
 
     </nav>

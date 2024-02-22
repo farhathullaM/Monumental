@@ -9,10 +9,11 @@
     width: 100%;
 }
 .image-sec{
+    display: flex;
     width: 50%;
 }
 .image-sec img{
-    width: 100%;
+    width: 725px;
 }
 
 .details-sec{
@@ -22,7 +23,7 @@
     width: 50%;
     justify-content: center;
     padding-left: 150px;
-    padding-right: 150px;
+    padding-right: 50px;
 
 }
 .details-sec h2{
@@ -62,8 +63,7 @@
 }
 .image-sec img{
     width: 725px;
-    height: 665px;
-    top:829px;
+    height: 544px;
 }
 /* .next-page-heading{
     display: flex;
@@ -87,7 +87,7 @@
     margin-top: 50px;
 } */
 
-@media (max-width: 760px) {
+@media (max-width: 800px) {
     .pagetwo{
         width: 100%;
         height: 100%;

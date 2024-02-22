@@ -10,7 +10,7 @@ const Pagetwo = () => {
     <div className='pagetwo'>
       <div className="section-1">
           <div className="image-sec">
-            <img src={img2} alt="" />
+            <img className='sec-img' src={img2} alt="" />
           </div>
           <div className="details-sec">
             <h2>Miskhal Masjid</h2>
@@ -27,7 +27,7 @@ const Pagetwo = () => {
             <button className='more-btn'>More <i class="fa-solid fa-arrow-right"></i></button>
           </div>
           <div className="image-sec">
-            <img src={img1} alt="" />
+            <img className='sec-img' src={img1} alt="" />
           </div>
       </div>
 

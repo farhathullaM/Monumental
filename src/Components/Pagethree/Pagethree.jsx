@@ -1,8 +1,8 @@
 import React from 'react';
 import './Pagethree.css';
 import one from '../Assets/pexels-pixabay-290386.jpg';
-import two from '../Assets/pexels-daniela-ruiz-1042206.jpg';
-import three from '../Assets/pexels-stijn-dijkstra-2659475.jpg';
+import two from '../Assets/tajgate.jpg';
+import three from '../Assets/tajmahal.jpg';
 
 const Pagethree = () => {
   return (

@@ -31,6 +31,9 @@
     width: 100%;
     height: 100vh;
     display: flex;
+    align-items: start;
+    justify-content: center;
+    overflow: hidden;
 }
 .image-container img{
     width: 33.3%;
@@ -48,13 +51,14 @@
 .img-three:hover{
     width: 50vw;
 }
-/* .image-container::before{
+.image-container::before{
     content: '';
     height: 100vh;
     width: 100%;
     background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%);
     position: absolute;
-} */
+    pointer-events: none;
+}
 .more-btn-div{
     height: 120px;
     bottom: 0;

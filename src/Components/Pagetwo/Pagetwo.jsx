@@ -30,10 +30,6 @@ const Pagetwo = () => {
             <img className='sec-img' src={img1} alt="" />
           </div>
       </div>
-
-      {/* <div className="next-page-heading">
-        <h3>Newly Addedd Places</h3>
-      </div> */}
     </div>
   )
 }

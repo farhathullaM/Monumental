@@ -11,9 +11,23 @@ const Pagethree = () => {
             <h3>Newly Addedd Places</h3>
         </div>
         <div className="image-container">
+
+          <div className="img-one-div">
             <img className='img-one' src={one} alt="" />
+            <div className="details">
+              <h2>Miskhal Masjid</h2>
+              <p>Mishkal Mosque is a medieval mosque located in Calicut on Malabar Coast, souther India. The mosque, one of the few surviving medeival mosques in Keerala, is regarded as an important cultural, historical and archtectural monument of Kerala</p>
+            </div>
+          </div>
+
+          <div className="img-two-div">
             <img className='img-two'src={two} alt="" />
+          </div>
+
+          <div className="img-three-div">
             <img className='img-three'src={three} alt="" />
+          </div>            
+            
         </div>
         <div className="more-btn-div">
         <button className='more-btn'>More <i class="fa-solid fa-arrow-right"></i></button>

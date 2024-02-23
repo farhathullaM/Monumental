@@ -35,21 +35,47 @@
     justify-content: center;
     overflow: hidden;
 }
-.image-container img{
+.img-one-div{
     width: 33.3%;
+    height: 100%;
+}
+.img-three-div{
+    width: 33.3%;
+    height: 100%;
+}
+.img-two-div{
+    width: 33.3%;
+    height: 100%;
+}
+
+.img-one-div{
+    /* width: 100%; */
     height: 100%;
     object-fit: cover;
     transition: all ease-out 0.5s;
     cursor: pointer;
 }
-.img-one:hover{
-    width: 50vw;
+.img-two-div{
+    /* width: 100%; */
+    height: 100%;
+    object-fit: cover;
+    transition: all ease-out 0.5s;
+    cursor: pointer;
 }
-.img-two:hover{
-    width: 50vw;
+.img-three-div{
+    height: 100%;
+    object-fit: cover;
+    transition: all ease-out 0.5s;
+    cursor: pointer;
 }
-.img-three:hover{
-    width: 50vw;
+.img-one-div:hover{
+    width: 100%;
+}
+.img-two-div:hover{
+    width: 100%;
+}
+.img-three-div:hover{
+    width: 100%;
 }
 .image-container::before{
     content: '';

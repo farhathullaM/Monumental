@@ -86,12 +86,21 @@
     color: white;
     background: rgba(0, 0, 0, 0);
     position: absolute;
-    top:65%;
+    top:60%;
     z-index: 11;
     padding-left: 30px;
     padding-right: 30px;
     align-items: center;
-
+}
+.detail h2{
+    font-size: 32px;
+    font-weight: 500;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.detail p{
+    font-size: 16px;
+    font-weight: 300;
 }
 .line{
     display: flex;

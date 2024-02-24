@@ -5,6 +5,7 @@ import two from '../Assets/tajgate.jpg';
 import three from '../Assets/tajmahal.jpg';
 
 const Pagethree = () => {
+  
   return (
     <div className='pagethree'>
         <div className="page-head">

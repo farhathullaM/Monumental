@@ -3,13 +3,12 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 30px;
     width: 90%;
-    height: 65px;
+    height: 62px;
     border-radius: 90px;
     color: #fff;
     position: fixed;
-    top: 25px;
+    top: 28px;
     left: 50%;
     transform: translate(-50%);
     background: rgba(255, 255, 255, 0.17);
@@ -21,6 +20,9 @@
     display: flex;
     flex-direction: row;
     cursor: pointer;
+    align-items: center;
+    margin-left: 20px;
+
 }
 
 .nav-logo img {
@@ -29,8 +31,9 @@
 }
 .nav-logo h1{
     color: #fff;
-    font-size: 2rem;
+    font-size: 20px;
     font-weight: 400;
+    justify-content: center;
 }
  
 .nav-menu {
@@ -43,7 +46,7 @@
 .navlink{
     text-decoration: none;
     color: #fff;
-    font-size: 1.2rem;
+    font-size: 15px;
     font-weight: 600;
     white-space: nowrap;
     font-weight: 400;
@@ -60,6 +63,7 @@
 } */
 .menu-icons{
     display: none;
+    margin-right: 20px;
 }
 .menu-icons .fa-times{
     display: none;
@@ -68,6 +72,11 @@
 @media (max-width: 896px) {
     .navbar{
         z-index: 99;
+    }
+    .nav-logo h1{
+
+        font-size: 1.5rem;
+        font-weight: 400;
     }
     .nav-menu {
         display: none;
@@ -104,5 +113,8 @@
     }
     .menu-icons{
         display: block;
+    }
+    .menu-icons i{
+        color: white;
     }
 } 

@@ -1,6 +1,6 @@
 import React from 'react';
 import './Navbar.css';
-import logo_new from '../Assets/logo.png';
+import logo_new from '../Assets/image.png';
 import { Link } from 'react-router-dom';
 
 const Navbar = () => {
@@ -35,8 +35,8 @@ return (
         </div>
 
         <div className="menu-icons" onClick={toggleNav}>
-            <i className='fa-solid fa-bars fa-lg' style={{color: 'black'}}></i>
-            <i className='fa-solid fa-times fa-lg' style={{color: 'black'}}></i>
+            <i className='fa-solid fa-bars fa-lg' style={{color: 'white'}}></i>
+            <i className='fa-solid fa-times fa-lg' style={{color: 'white'}}></i>
         </div>
 
         <ul className='nav-menu'>

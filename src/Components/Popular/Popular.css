@@ -151,3 +151,21 @@
     position: absolute;
     z-index: 11;
 }
+
+
+@media (max-width: 760px) {
+    .name-loc{
+        top: 60vh;
+        left: 10%;
+        z-index: 11;
+    }
+    .name-loc h2{
+        font-size: 30px;
+    }
+    .name-loc p{
+        font-size: 18px;
+    }
+    .name-loc i{
+        padding-right: 10px;
+    }
+}

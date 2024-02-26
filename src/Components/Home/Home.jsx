@@ -17,7 +17,7 @@ return (
             <h1>Let the World See</h1>
             <p>Discover the Wonders</p>
             <Link to='./explore'>
-            <button className='discover-btn'>DISCOVER <i class="fa-solid fa-arrow-right"></i></button>
+            <button className='discover-btn'>DISCOVER <i className="fa-solid fa-arrow-right"></i></button>
             </Link>
         </div>
     </div>

@@ -8,7 +8,7 @@ import three from '../Components/Assets/tajmahal.jpg';
 
 
 const ReadMore = ({ children }) => {
-  const text = children;
+  const text = children || '';
   const [isReadMore, setIsReadMore] = useState(true);
   const toggleReadMore = () => {
       setIsReadMore(!isReadMore);
@@ -65,30 +65,30 @@ const Placedetails = () => {
           <img src={star} alt="" />
           <h4>Importance</h4>
         </div>
-       <ReadMore> {monument.importance}</ReadMore>
+       <p>{monument.importance}</p>
       </div>
 
       <div className="about-monument">
         <h4>About Monument</h4>
         <div className="line"></div>
-        <p>{monument.about}</p>
-      </div>
-
-      <div className="about-monument">
-        <h4>PRESENT CONDITION</h4>
-        <div className="line"></div>
-        <p>{monument.present}</p>
+        <ReadMore children={monument.about}/>
       </div>
 
       <div className="about-monument">
         <h4>PAST CONDITION</h4>
         <div className="line"></div>
-        <p>{monument.past}</p>
+        <ReadMore children={monument.past}/>
+      </div>
+
+      <div className="about-monument">
+        <h4>PRESENT CONDITION</h4>
+        <div className="line"></div>
+        <ReadMore children={monument.present}/>
       </div>
 
       <div className="arch-imp">
         <h4>Architectural Importance</h4>
-        <p>{monument.architectural}</p>
+        <p>children={monument.architectural}</p>
       </div>
 
       <div className='gallery'> 
@@ -101,7 +101,7 @@ const Placedetails = () => {
 
           <div className="img-one-div">
             <img className='img-one' src={one} alt="" />
-            <div className="detail">
+            <div className="details">
             <div className="line"></div>
               <h2>Miskhal Masjid</h2>
               <p>Mishkal Mosque is a medieval mosque located in Calicut on Malabar Coast, souther India. The mosque, one of the few surviving medeival mosques in Keerala, is regarded as an important cultural, historical and archtectural monument of Kerala</p>
@@ -110,7 +110,7 @@ const Placedetails = () => {
 
           <div className="img-two-div">
             <img className='img-two'src={two} alt="" />
-            <div className="detail">
+            <div className="details">
               <div className="line"></div>
               <h2>Miskhal Masjid</h2>
               <p>Mishkal Mosque is a medieval mosque located in Calicut on Malabar Coast, souther India. The mosque, one of the few surviving medeival mosques in Keerala, is regarded as an important cultural, historical and archtectural monument of Kerala</p>
@@ -119,7 +119,7 @@ const Placedetails = () => {
 
           <div className="img-three-div">
             <img className='img-three'src={three} alt="" />
-            <div className="detail">
+            <div className="details">
               <div className="line"></div>
               <h2>Miskhal Masjid</h2>
               <p>Mishkal Mosque is a medieval mosque located in Calicut on Malabar Coast, souther India. The mosque, one of the few surviving medeival mosques in Keerala, is regarded as an important cultural, historical and archtectural monument of Kerala</p>
